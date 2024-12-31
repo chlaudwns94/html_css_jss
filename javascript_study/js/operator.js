@@ -36,7 +36,7 @@ console.log(1 !== "1");     //타입 검사 o
  * null 병합 연산
  * anything1 ?? anything2
  * 좌항(anything1) === null || 좌항(anything1) === ubdefined    => 우항(anything2)
- * 좌항(anything1) !== null && 좌항(anything1) === ubdefined    => 좌항(anything2)
+ * 좌항(anything1) !== null && 좌항(anything1) !== ubdefined    => 좌항(anything2)
  * 
  */
 
