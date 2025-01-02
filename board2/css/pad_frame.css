@@ -1,0 +1,54 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 2px solid #afafaf;
+    width: 768px;
+    height: 1024px;
+    box-shadow: 0px 0px 2px 4px #000000 inset;
+    overflow: hidden;
+    
+}
+.display {
+    border: 3px solid #222222;
+    padding: 70px 30px;
+    width: 708px;
+    height: 884px;
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    overflow: auto;
+}
+
+.pad-head {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.dynamin-island {
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #000000;
+}
